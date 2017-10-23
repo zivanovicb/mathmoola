@@ -1,0 +1,1 @@
+"use strict";$(".hamburger").click(function(){$(this).toggleClass("active"),$(".overlay").toggleClass("open")});
