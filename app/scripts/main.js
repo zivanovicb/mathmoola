@@ -1,1 +1,4 @@
-console.log('\'Allo \'Allo!');
+$('.hamburger').click(function() {
+  $(this).toggleClass('active');
+  $('.overlay').toggleClass('open');
+});
